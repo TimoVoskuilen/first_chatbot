@@ -18,3 +18,9 @@ decode = lambda l: ''.join([itos[i] for i in l])
 The data loader samples random fixed-length sequences from the dataset and creates input–target pairs for next-character prediction.
 .<br>
 ![Data loader batch generation](./images/dataloader.png)
+
+
+## Constructor
+Here we used a bigram language model that predicts only the next character based on the current character. Each token is mapped to a vectore
+of scores over the entire vobaulary.
+![Constructor](./images/)
