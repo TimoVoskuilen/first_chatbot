@@ -14,3 +14,7 @@ encode = lambda s: [stoi[c] for c in s]
 decode = lambda l: ''.join([itos[i] for i in l])
 ```
 
+## data loader
+The data loader samples random fixed-length sequences from the dataset and creates input–target pairs for next-character prediction.
+.<br>
+![Data loader batch generation](./images/dataloader.png)
